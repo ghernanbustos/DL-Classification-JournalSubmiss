@@ -5,24 +5,32 @@ and cumulants: Application to recognition of pattern alterations in pulse-like w
 - Deep Learning training scripts.
 
 ## Google drive link
-There are two folder
-- 1_DeepLearning_256pt
-- 2_DeepLearning_1024pt (Files on google drive)
 
-For 1024 signal samples, the project size exceeds the allowed by GitHub, so download it
-from [DeepLearning_1024pt](https://drive.google.com/drive/folders/1gT2sfkVI4qCQr5dfevvo9KJVfXgDVU6A?usp=sharing)
-and include in the respective `2_DeepLearning_1024pt` folder.
+## Deep Learning Folders
 
-## Datasets for training process:
-Folders `<signal-type>_<snr-level>dB` contains raw data generated with [App Name](link to project). 
-This files are formatted with `DataBaseGen_RawSignal_<train or test>.m` script and save as .mat file
-incluided in same folder. There are a single .mat dataset file for each signal type and SNR level. 
-The end dataset size is 5000x256 or 1024, 1000 signals per filter deformation leading into 5 labels.
+There are two folders used in this project:
+
+- `1_DeepLearning_256pt`
+- `2_DeepLearning_1024pt` *(files hosted on Google Drive)*
+
+Due to GitHub's file size limitations, the `2_DeepLearning_1024pt` folder (which contains 1024-sample signal data) must be downloaded separately from the following link:
+
+[DeepLearning_1024pt](https://drive.google.com/drive/folders/1gT2sfkVI4qCQr5dfevvo9KJVfXgDVU6A?usp=sharing)
+
+After downloading, place the contents into the corresponding `2_DeepLearning_1024pt` folder within the project directory.
+
+## Datasets for Training Process
+
+Folders named `<signal-type>_<snr-level>dB` contain raw data generated using the [App Name](link to project).  
+These files are formatted with the script `DataBaseGen_RawSignal_<train or test>.m` and saved as `.mat` files within the same folder.
+
+Each folder includes a single `.mat` dataset file corresponding to a specific signal type and SNR level.  
+The final dataset size is either `5000×256` or `5000×1024`, consisting of 1000 signals per filter deformation — resulting in 5 labeled classes.
 
 
 ## Deep Learning Training script File:
 
-Once train and test datasets are formated into 5000x256 or 5000x1024 are able to be imported into respective DL folder.  
+Once train and test datasets are formated into 5000x256 or 5000x1024 are able to be included into respective DL folder.  
 
 ### How to Reproduce the Workflow
 
@@ -70,8 +78,7 @@ After training process, model parameters will be saved in `<signal-type>Workspac
 
 ## Measuring Algorithm Execution Time
 
-To measure execution time, run the script `timeMeasure.m` 
-to calculate DL computation time, where each processing time value represents the average of 100 algorithm executions.
+To measure execution time, run the script `timeMeasure.m` where each processing time value represents the average of 100 algorithm executions.
 
 ## File Table List:
 
