@@ -59,14 +59,14 @@ Once train and test datasets are formated into 5000x256 or 5000x1024 are able to
 
 <figure>
   <p align="center">
-  <img src="./Images/training_progress" width="500">
+  <img src="./Images/training_progress.jpg" width="500">
   </p>
 </figure>
 <p align="center">
 	Bayes Optimization Training process.
 </p>
 
-At the end trained model parameters will be saved in `<signal-type>Workspace.mat` file.
+After training process, model parameters will be saved in `<signal-type>Workspace.mat` file.
 
 ## Measuring Algorithm Execution Time
 
