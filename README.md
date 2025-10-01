@@ -1,4 +1,4 @@
-# Paper_machineLearning_project
+# DL-Classification-JournalSubmiss
 This project contains Deep Learning trained models files used in the research work "Extended method for Statistical Signal Characterization using moments
 and cumulants: Application to recognition of pattern alterations in pulse-like waveforms employing Artificial Neural Networks". 
 - DataSets.
