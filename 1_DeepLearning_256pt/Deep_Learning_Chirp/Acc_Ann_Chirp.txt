@@ -1,0 +1,5 @@
+Accuracy Values at different SNR test DataSet with ANN trained under HPO Bayesian Optimization
+Acc_Ann_25dB = 1
+Acc_Ann_20dB = 0.9806
+Acc_Ann_15dB = 0.7762
+Acc_Ann_10dB = 0.3758
