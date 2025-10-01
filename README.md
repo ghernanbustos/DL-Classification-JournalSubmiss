@@ -4,6 +4,14 @@ and cumulants: Application to recognition of pattern alterations in pulse-like w
 - DataSets.
 - Deep Learning training scripts.
 
+## Google drive link
+There are two folder
+- 1_DeepLearning_256pt
+- 2_DeepLearning_1024pt
+
+For 1024 signal samples, the project size exceeds the allowed by GitHub, so download from [DeepLearning_1024pt]()
+and include in the respective folder.
+
 ## Datasets for training process:
 Folders `<signal-type>_<snr-level>dB` contains raw data generated with [App Name](link to project). 
 This files are formatted with `DataBaseGen_RawSignal_<train or test>.m` script and save as .mat file
@@ -31,7 +39,7 @@ Once train and test datasets are formated into 5000x256 or 5000x1024 are able to
    and executes bayes optimization training
    
    ```
-%------------------- HPO 1D-CNN -------------------------------------------
+	%------------------- HPO 1D-CNN -------------------------------------------
 
 	optimVars = [
 	    optimizableVariable('SectionDepth',[1 3],'Type','integer')
@@ -66,15 +74,15 @@ to calculate DL computation time, where each processing time value represents th
 
 ## File Table List:
 
-| Folder / File              				|              Description			      |
+| Folder             				|              Description			      |
 |-------------------------------------------------------|-----------------------------------------------------|
-| `<signal>_<num_params>params_ClassificationLearnerSession_shuffleDataSet.mat`	|Classification Learner Session File (4 and 30 params)|
-| `<signal>_workspace.mat`							| Formated Datasets to be used in Classification Learner|
-| `<signal>_exportedTrainedModels.mat`						| Exported Object model file     |
-| `<signal>_<filter-deformation>_25dB_testElement`				| Raw Signal data used to measure ESSC extraction feature + ANN classification execution time|	
-|`<signal-type>_timeModelMat`							|model average execution time|
-|Folder `<signal-type>_ann_manually`						|Files to build model manually and Rank features |
-
+| `<signal-type>_<snr-level>dB`	|Raw data and script to format dataset|
+| `Deep_Learning_<signal-type>`	| Script for traning and excecution time measurment|
+| File             				|              Description			      |
+|-------------------------------------------------------|-----------------------------------------------------|
+| `<signal>_1D_CNN_HPO.m`						| Training network script     |
+| `timeMeasure.m`				| algorithm excecution time measurement|	
+| `<signal-type>_gauss1_25dB_testElement`                | raw signal element (signal amplitude and time) to test timeMeasure |
 
 
 ## Author
