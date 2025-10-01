@@ -7,10 +7,11 @@ and cumulants: Application to recognition of pattern alterations in pulse-like w
 ## Google drive link
 There are two folder
 - 1_DeepLearning_256pt
-- 2_DeepLearning_1024pt
+- 2_DeepLearning_1024pt (Files on google drive)
 
-For 1024 signal samples, the project size exceeds the allowed by GitHub, so download from [DeepLearning_1024pt]()
-and include in the respective folder.
+For 1024 signal samples, the project size exceeds the allowed by GitHub, so download it
+from [DeepLearning_1024pt](https://drive.google.com/drive/folders/1gT2sfkVI4qCQr5dfevvo9KJVfXgDVU6A?usp=sharing)
+and include in the respective `2_DeepLearning_1024pt` folder.
 
 ## Datasets for training process:
 Folders `<signal-type>_<snr-level>dB` contains raw data generated with [App Name](link to project). 
