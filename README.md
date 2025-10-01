@@ -21,7 +21,7 @@ After downloading, place the contents into the corresponding `2_DeepLearning_102
 
 ## Datasets for Training Process
 
-Folders named `<signal-type>_<snr-level>dB` contain raw data generated using the [App Name](link to project).  
+Folders named `<signal-type>_<snr-level>dB` contain raw data generated using the [Pulsed-LikeSignal-Generator](https://github.com/ghernanbustos/Pulsed-LikeSignal-Generator.git).  
 These files are formatted with the script `DataBaseGen_RawSignal_<train or test>.m` and saved as `.mat` files within the same folder.
 
 Each folder includes a single `.mat` dataset file corresponding to a specific signal type and SNR level.  
