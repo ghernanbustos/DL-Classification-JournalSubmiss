@@ -93,6 +93,39 @@ To measure execution time, run the script `timeMeasure.m` where each processing 
 | `timeMeasure.m`				| algorithm excecution time measurement|	
 | `<signal-type>_gauss1_25dB_testElement`                | raw signal element (signal amplitude and time) to test timeMeasure |
 
+## Waveforms Samples to be classified:
+
+The visualizations illustrate waveform distortions induced by Gaussian and low-pass filtering. 
+These examples probe the classifier’s ability to resolve nuanced structural differences, 
+emphasizing its discriminative sensitivity.
+
+<figure>
+  <p align="center">
+  <img src="./Images/Sinc_Real_SimulatedWaveform.jpg" width="500">
+  </p>
+</figure>
+<p align="center">
+	Sinc Waveform at different SNR noise level and filter profile deformation.
+</p>   
+      
+<figure>
+  <p align="center">
+  <img src="./Images/Gauss_Real_SimulatedWaveform.jpg" width="500">
+  </p>
+</figure>
+<p align="center">
+	Gauss Waveform at different SNR noise level and filter profile deformation.
+</p>     
+
+<figure>
+  <p align="center">
+  <img src="./Images/Chirp_Real_SimulatedWaveform.jpg" width="500">
+  </p>
+</figure>
+<p align="center">
+	Chirp Waveform at different SNR noise level and filter profile deformation.
+</p>     
+
 
 ## Author
 
