@@ -129,8 +129,8 @@ emphasizing its discriminative sensitivity.
 
 ## Author
 
-- Guillermo H. Bustos 	(ghernanbustos@gmail.com)
-- Héctor H. Segnorile 	(segnoh@gmail.com)
+- Guillermo H. Bustos 	(ghbustos@famaf.unc.edu.ar) 
+- Héctor H. Segnorile 	(hector.segnorile@unc.edu.ar)
 - **Institution**: Instituto de Física Enrique Gaviola (IFEG CONICET)- Universidad Nacional de Córdoba - FAMAF
 
 
