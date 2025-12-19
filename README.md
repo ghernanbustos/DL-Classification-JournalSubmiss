@@ -156,7 +156,7 @@ For further information go to [DataGenerator_Man.pdf](https://github.com/ghernan
 
 ## Author
 
-- Guillermo H. Bustos 	(ghbustos@famaf.unc.edu.ar) 
+- Guillermo H. Bustos 	(ghernanbustos@unc.edu.ar) 
 - Héctor H. Segnorile 	(hector.segnorile@unc.edu.ar)
 - **Institution**: Instituto de Física Enrique Gaviola (IFEG CONICET)- Universidad Nacional de Córdoba - FAMAF
 
