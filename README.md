@@ -67,7 +67,7 @@ Once train and test datasets are formated into 5000x256 or 5000x1024 are able to
 
 <figure>
   <p align="center">
-  <img src="./Images/training_progress.jpg" width="500">
+  <img src="./Images/training_progress.jpg" width="600">
   </p>
 </figure>
 <p align="center">
@@ -75,6 +75,19 @@ Once train and test datasets are formated into 5000x256 or 5000x1024 are able to
 </p>
 
 After training process, model parameters will be saved in `<signal-type>Workspace.mat` file.
+
+<figure>
+  <p align="center">
+  <img src="./Images/CNN_Model_Size.jpg" width="600">
+  </p>
+</figure>
+<p align="center">
+	Model params exampl using `analyzeNetwork(<Network_Name>)`
+</p>
+
+
+
+
 
 ## Measuring Algorithm Execution Time
 
@@ -92,6 +105,31 @@ To measure execution time, run the script `timeMeasure.m` where each processing 
 | `<signal>_1D_CNN_HPO.m`						| Training network script     |
 | `timeMeasure.m`				| algorithm excecution time measurement|	
 | `<signal-type>_gauss1_25dB_testElement`                | raw signal element (signal amplitude and time) to test timeMeasure |
+
+<figure>
+  <p align="center">
+  <img src="./Images/CNN_latency_time.jpg" width="500">
+  </p>
+</figure>
+<p align="center">
+	Latency Time Measure.
+</p>   
+
+## Manual Pulse Extraction:
+
+In   `..\0_Manual_PulseDetectt` folder two script for manual pulse detection and extraction can be found. 
+This allows to measure max and min pulse length in a Raw DATASet, for 1024pt and 256pt by using `Metodo_ESSC_ANN_V2`variable of the type object.
+
+<figure>
+  <p align="center">
+  <img src="./Images/Pulse_length.jpg" width="500">
+  </p>
+</figure>
+<p align="center">
+	Sinc, Gaussian and Chirp pulse length at 256 and 1024pt RAW DataSet.
+</p>   
+
+
 
 ## Waveforms Samples to be classified:
 
